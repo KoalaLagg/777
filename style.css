@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   
+}
+
+
+
+.header{
+    width: 100%;
+    background: black;
+    height: 90px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+
+}
+.ss1    {
+    
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    left:200px;
+    border-radius: 15%;
+    padding: 3px 10px 3px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    background-position: 0 2px;
+    font-size: 20px;
+}
+.ss2   {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding: 3px 10px 3px 10px ;
+    font-size: 20px;
+}
+.ss3   {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    left: 90%;
+    font-size: 20px;
+    border-radius: 20%;
+    padding-right: 20px;
+    padding-top: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding: 3px 10px 3px 10px ;
+}
+.ss1:hover {
+    color: darkgrey;
+    transition: color  0.4s, box-shadow 0.2s 0.3s;
+
+}
+
+.ss2:hover {
+    color: darkgrey;
+    transition: color  0.4s, box-shadow 0.2s 0.3s;
+}
+.image {
+    height: 80px;
+    width: 160px;
+}
+.ss3:hover {
+color: darkgrey;
+    transition: color  0.4s, box-shadow 0.2s 0.3s;
+}
+.container {
+  position: relative;
+top: 90px;
+}
+.background {
+    width: 100%;
+    max-height: auto;
+    z-index: 2;
+}
+.sign {
+   max-width: 100px;
+   min-width: 10px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 45%;
+    position: absolute;
+    bottom: 70px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: 900;
+    left: 45%;
+    border: 2px solid white;
+    align-items: center;
+
+    }
+
+    .sign:hover {
+        background-color: white;
+        color: black;
+    transition: background-color 0.1s ease-in-out
+    }
