@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    html {
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+    
+    
+    .header-navigation {
+    max-width: 100%;
+    background: black;
+    height: 90px;
+    }
+    
+    .Uberlogo {
+    max-width: 160px;
+    max-height: 80px ;
+    }
+    
+    .ss1 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 80%;
+    }
+    .ss1:hover {
+    color: darkgrey;
+    transition: color 0.4s, box-shadow 0.2s 0.3s;
+    }
+    
+    .ss2 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 95%;
+    }
+    .ss2:hover {
+    color: darkgrey;
+    transition: color 0.4s, box-shadow 0.2s 0.3s;
+    }
+    
+    .support-box {
+    max-width: 100%;
+    background: rgb(219, 216, 216);
+    height: 90px;
+    box-shadow: 0px 3px rgba(124, 124, 124, 0.2);
+    }
+    
+    .ss3 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 37%;
+    left: 12%;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    
+    }
+
+    .ss3:hover {
+        color: white;
+        transition: color 0.4s, box-shadow 0.2s 0.3s;
+        }
+        
+    .image-color {
+         top: 0;
+        max-width: 100%;
+        height: 1000px;
+      
+        background-image: url("https://tb-static.uber.com/prod/bliss-helpdot/asset/images/landing-page-index.jpeg");
+     background-position: center;
+    background-size: cover;
+    min-height: 75vh;
+    display: block;
+    } 
+
+    .box1 {
+        display: block;
+      
+        height: 100%;
+        padding: 32px;
+        border: 1px solid black;
+    }
+
+
+    .box2 {
+        max-width: 650px;
+        margin: 0 auto;
+        align-items: center;
+    
+    }
+
+    .text {
+        font-size: 25px;
+        display: block;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: -0.9px;
+    }
+    
+    .text1 {
+      
+        align-items: center;
+        display: block;
+        padding-left: 160px;
+        
+    }
+
+    .text2 {
+        font-size: 12px;
+       
+    }
+    .border-flex {
+        margin-top: 20px;
+        margin-bottom: 20px;
+       display: flex;
+    }
+    .flexboxs a  {
+        background-color: rgba(204, 198, 198, 0.9);
+        margin: 30px 100px 30px 50px;
+        text-decoration: none;
+        align-items:center;
+        display:inline-flex;
+        width: 150px;
+        height: 150px;
+        box-shadow: 1px 0.2s;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 45px;
+        color: black;
+        font-weight: 700;
+
+    }
+
+    .flexboxs a:hover {
+        color: white;
+        background-color: black;
+        transition:color 0.4s, background-color 0.4s ;
+    
+    }
